@@ -36,6 +36,11 @@ body{
     left: 0;
     top: 12px;
 }
+.page{
+    padding-top:124px ;
+    padding-bottom: 94px;
+}
+
 
 
 .wrapper{
@@ -91,6 +96,15 @@ body{
 .h2::after{
     right: 0;
 }
+.footer{
+    background-image: url(../img/Bg-footer.png);
+    padding: 44px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+}
 
 .h2 + p{
     font-size: 20px;
@@ -126,7 +140,7 @@ body{
 
 
 .banner{
-    background: red;
+    /* background: red; */
 
     background-image: url(../img/Bg-header.png);
     background-repeat: no-repeat;
@@ -228,25 +242,29 @@ body{
     position: absolute;
 }
 .number-one::after{
-    background-image: url(../img/icon01.png);
+    background-image: url(../img/Layer_1.png);
     width: 126px;
     height: 71px;
     left: 69px;
-    top: calc(50%-35px);
+    top:40px;
+    /* top: calc(50%-35px); */
 }
 .number-two::after{
-    background-image: url(../img/icon02.png);
+    background-image: url(../img/Layer_3.png);
     width: 184px;
     height: 81px;
     left: 88px;
-    top: calc(50%-40px);
+    top:40px;
+    /* top: calc(50%-40px); */
 }
 .number-three::after{
-    background-image: url(../img/icon03.png);
+    background-image: url(../img/Layer_4.png);
     width: 142px;
     height: 68px;
     left: 94px;
-    top: calc(50%-34px);
+    top:40px;
+
+    /* top: calc(50%-34px); */
 }
 .box-text{
     border-right: 1px solid #eaeaea;
@@ -270,11 +288,11 @@ body{
 
 
 .btn-start{
-    color:rgb(58, 54, 54);
+    color: #fff;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 700;
-    background-image: url(../img/Bg-footer.png);
+    background-image: url(../img/Vector_Smart_Object.png);
     background-position: center center;
     text-decoration: none;
     background-repeat: no-repeat;
@@ -285,5 +303,13 @@ body{
 
 
 
-
+.footer {
+    background-image: url(../img/Bg-footer.png);
+    padding: 24px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
 
