@@ -5,9 +5,20 @@ body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+.page{
+    padding-top:124px ;
+    padding-bottom: 94px;
+}
 
-
-
+.footer{
+    background-image: url(../img/Bg-footer.png);
+    padding: 44px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+}
 
 
 
